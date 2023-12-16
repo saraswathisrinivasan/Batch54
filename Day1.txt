@@ -1,0 +1,51 @@
+Day 1:
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1 HTTP2
+
+The textual format is where it functions
+
+best. It uses the binary protocol to operate
+
+All requests that come after it are blocked
+
+by head of line blocking until it runs out
+
+of resources. Since many requests can be multiplexed, only one TCP connection is needed.
+
+It makes use of resource inlining requests
+
+to obtain several pages. It uses PUSH to collect all multiple pages from each server, frame by frame.
+
+It does data compression on its own. It compresses data using HPACK.
+
+2. Write a blog about objects and its internal representation in Javascript
+
+A JavaScript object is a distinct entity with properties and a type. Consider the analogy of a cup. A cup has distinct properties. The design, weight, color, and material of a cup are among its other distinguishing features. Similarly, JavaScript objects can contain properties that define their attributes.
+
+Object Creation in JavaScript:
+
+· By object literal
+
+Syntax:
+
+Object={Propertity1:value1,Property2:value2,PropertyN:ValueN};
+
+Example:
+
+var car={name:”BMW”,colour:”Red”};
+
+· By explicitly generating instances of Object using new keyword
+
+Syntax:
+
+var object=new object();
+
+Example:
+
+var person=new person();
+
+person.name=”jhon”;
+
+person.age=24;
